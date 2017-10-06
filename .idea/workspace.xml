@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b4aae21-217e-4202-87a0-9148f361cc1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlin-shooping" afterPath="$PROJECT_DIR$/onlin-shooping" />
-    </list>
+    <list default="true" id="3b4aae21-217e-4202-87a0-9148f361cc1a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -154,8 +152,8 @@
     <handled-path value="$PROJECT_DIR$/shopping-client/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="202" />
+    <option name="x" value="298" />
+    <option name="y" value="113" />
     <option name="width" value="1117" />
     <option name="height" value="704" />
   </component>
@@ -250,15 +248,15 @@
       <workItem from="1507086855781" duration="35000" />
       <workItem from="1507086904741" duration="6000" />
       <workItem from="1507086919883" duration="1140000" />
-      <workItem from="1507310147476" duration="3151000" />
+      <workItem from="1507310147476" duration="3521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4361000" />
+    <option name="totallyTimeSpent" value="4731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="202" width="1117" height="704" extended-state="0" />
+    <frame x="298" y="113" width="1117" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3229927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
