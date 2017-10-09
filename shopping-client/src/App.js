@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Product from './components/Product';
 import ProductList from './components/ProductList';
+import ProductOrder from './components/ProductOrder';
+import Order from './components/Order';
 
 
 class App extends Component {
@@ -23,6 +25,8 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/" component={Product} />
             <Route exact path='/product' component={ProductList} />
+            <Route exacr path='/order' component={ProductOrder} />
+            <Route exact path='/checkout' component={Order} />
 
             </div>
             <Footer />

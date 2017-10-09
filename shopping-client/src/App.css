@@ -141,3 +141,48 @@ footer {
   background-color: #36b725;
   float: right;
 }
+.Order-list {
+  border: 1px solid #bbbbbb;
+  height: 200px;
+  width: 350px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30px;
+  border-radius: 15px;
+  background-image: url("https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/02/25/goods-img/1498125691181740179.jpg");
+
+
+}
+.order {
+  border: 1px solid blue;
+  width: 700px;
+  height: 500px;
+  margin:  0 auto;
+}
+.product_detail {
+  float: right;
+  margin-bottom: 350px;
+}
+.product_header {
+  border: 1px solid blue;
+  width: 700px;
+  height: 500px;
+
+}
+.cart {
+  font-size: 30px;
+}
+.form {
+  border: 1px solid black;
+  width: 700px;
+  height: 700px;
+  margin: auto;
+
+}
+.email {
+  font-size: 50px;
+}
+.name {
+  padding: 30px;
+}
