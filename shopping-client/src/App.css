@@ -126,5 +126,18 @@ footer {
 
 
 }
-
-
+.btn-add {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px 40px 12px;
+  border-radius: 5px;
+  color: white;
+  transition: opacity ease-in-out .2s;
+  border: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 0 2px 0 #468f3b;
+  background-color: #36b725;
+  float: right;
+}
