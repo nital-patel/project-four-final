@@ -13,29 +13,30 @@ class Order extends Component {
             <div className="form">
                 <form>
                     <h1>Customer information</h1>
-                    <div className="email">
-                        <input type="text" placeholder="Email" name="email" value={this.state.email} />
-                    </div>
+                    <span>
+                        <input type="text" className="email" placeholder="Email" name="email" value={this.state.email} />
+                    </span>
                     <h2>Shipping address</h2>
-                    <div className="name">
-                        <input type="text" placeholder="First name" name="first name" value={this.state.firstname} />
-                        <input type="text" placeholder="Last name" name="last name" value={this.state.lastname} />
+                    <span>
+                        <input type="text" className="name" placeholder="First name" name="first name" value={this.state.firstname} />
+                        <input type="text" className="name" placeholder="Last name" name="last name" value={this.state.lastname} />
+                    </span>
+                    <div>
+                        <input type="text" className="add" placeholder="Address" name="address" value={this.state.address} />
+                        <input type="text" className="add" placeholder="Apt,suite,etc." name="apt,suite,etc." value={this.state.aptsuiteetc} />
                     </div>
                     <div>
-                        <input type="text" placeholder="Address" name="address" value={this.state.address} />
-                        <input type="text" placeholder="Apt,suite,etc." name="apt,suite,etc." value={this.state.aptsuiteetc} />
+                        <input type="text" className="city" placeholder="City" name="city" value={this.state.city} />
                     </div>
                     <div>
-                        <input type="text" placeholder="City" name="city" value={this.state.city} />
+                        <input type="text" className="County" placeholder="County" name="county" value={this.state.county} />
+                        <input type="text" className="County" placeholder="State" name="state" value={this.state.state} />
+                        <input type="text" className="County" placeholder="Zip code" name="zip code" value={this.state.zipcode} />
                     </div>
                     <div>
-                        <input type="text" placeholder="County" name="county" value={this.state.county} />
-                        <input type="text" placeholder="State" name="state" value={this.state.state} />
-                        <input type="text" placeholder="Zip code" name="zip code" value={this.state.zipcode} />
+                        <input type="text"  className="num" placeholder="Phone" name="phone" value={this.state.phone} />
                     </div>
-                    <div>
-                        <input type="text" placeholder="Phone" name="phone" value={this.state.phone} />
-                    </div>
+                        <button className="btn">Continue to shipping method</button>
 
 
 

@@ -181,8 +181,57 @@ footer {
 
 }
 .email {
-  font-size: 50px;
+  width: 90%;
+  padding: 15px;
+  border-radius: 5px;
+
 }
 .name {
-  padding: 30px;
+  padding: 15px;
+  width: 40%;
+  margin: 17px;
+  border-radius: 5px;
+}
+.add {
+  padding: 15px;
+  width: 40%;
+  margin: 17px;
+  border-radius: 5px;
+
+}
+.city {
+  padding: 15px;
+  width: 90%;
+  margin: 17px;
+  border-radius: 5px;
+
+}
+.County {
+  padding: 15px;
+  width: 23%;
+  margin: 15px;
+  border-radius: 5px;
+
+}
+.num {
+  padding: 15px;
+  width: 90%;
+  margin: 17px;
+  border-radius: 5px;
+
+}
+h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+.btn {
+  width: 300px;
+  color: #ffffff;
+  background: #2a9dcc;
+  box-sizing: border-box;
+  float: right;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
 }
