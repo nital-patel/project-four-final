@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Product from './Product';
+import { Link } from 'react-router-dom';
 
 class ProductList extends Component {
     constructor(){
@@ -13,6 +13,8 @@ class ProductList extends Component {
 render() {
     return (
         <div className="Product-list">
+            <h1></h1>
+
         </div>
     )
 }
