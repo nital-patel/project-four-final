@@ -1,22 +1,38 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import { Link } from 'react-router-dom';
-
+import productApi from '../api/product';
 class ProductList extends Component {
     constructor() {
         super();
-        this.state = {}
+        this.state = {
+            productList: []
+        };
+
+        productApi.getProducts()
+            .then((productList)=> {
+                this.setState({
+                    productList: productList
+                });
+            })
     }
 
     render() {
-        return (
-            <div className="Product-list">
-                <form >
-                <input type="submit" value="Add to cart" className="btn-add" />
-                </form>
-            </div>
+        const productList = this.state.productList;
 
-        )
+        return (
+            <div >
+                {
+                    productList.map((product) =>
+                        (
+                            <div key={product.id}>
+                                <img src={product.image}></img>
+                                <a href="#" className="btn-add">Add to Cart</a>
+                            </div>
+                        )
+                    )
+
+                }
+            </div>
+        );
     }
 }
 export default ProductList;

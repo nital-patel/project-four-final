@@ -5,7 +5,7 @@ const Home = () => {
         <div className="home">
             <h1>shop the decal</h1>
         </div>
-    )
-}
+    );
+};
 
 export default Home;

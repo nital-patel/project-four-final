@@ -119,12 +119,6 @@ footer {
   position: relative;
   margin-left: 30px;
   border-radius: 15px;
-  background-image: url("https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/02/25/goods-img/1498125691181740179.jpg");
-
-
-
-
-
 }
 .btn-add {
   width: 100%;
@@ -184,45 +178,52 @@ footer {
   width: 90%;
   padding: 15px;
   border-radius: 5px;
+  border: none;
 
 }
 .name {
   padding: 15px;
   width: 40%;
-  margin: 17px;
+  margin: 20px;
   border-radius: 5px;
+  border: none;
 }
 .add {
   padding: 15px;
   width: 40%;
-  margin: 17px;
+  margin: 20px;
   border-radius: 5px;
+  border: none;
 
 }
 .city {
   padding: 15px;
   width: 90%;
-  margin: 17px;
+  margin: 20px;
   border-radius: 5px;
+  border: none;
 
 }
 .County {
   padding: 15px;
   width: 23%;
-  margin: 15px;
+  margin: 20px;
   border-radius: 5px;
+  border: none;
 
 }
 .num {
   padding: 15px;
   width: 90%;
-  margin: 17px;
+  margin: 20px;
   border-radius: 5px;
+  border: none;
 
 }
 h2 {
   text-align: left;
   margin-left: 10px;
+  border: none;
 }
 .btn {
   width: 300px;
@@ -234,4 +235,5 @@ h2 {
   cursor: pointer;
   height: 50px;
   font-size: 20px;
+  border: none;
 }
