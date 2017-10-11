@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import productApi from '../api/product';
+import { Link } from 'react-router-dom';
 
 class ProductData extends Component {
     constructor(props) {
@@ -26,11 +27,14 @@ class ProductData extends Component {
 
         return (
             <div key={productData.id}>
-                <img className="img" src={productData.image}></img>
-                <p>{productData.description}</p>
-                <p>price: {productData.price}</p>
-                <p>name: {productData.name}</p>
-                <a href="#" className="btn-add">Add to Cart</a>
+                <p className="product-name">name: {productData.name}</p>
+                <img className="img-data" src={productData.image}></img>
+                <p className="product-price">price: {productData.price}</p>
+                <Link className="btn-add" to="/add to cart">Add to cart</Link>
+                <div className="desc">
+                <p className="product-data">{productData.description}</p>
+                </div>
+
             </div>
         );
     }

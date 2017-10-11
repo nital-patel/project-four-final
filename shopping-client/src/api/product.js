@@ -8,16 +8,16 @@ const dummyProducts =  [
         "Eligendi conceptam id pro, eum mutat mentitum singulis et. Te usu admodum signiferumque, case omnesque ullamcorper nam cu. Vero delicata an ius, per nostrud nominavi an. At sit stet graeco percipit, at sea intellegat posidonium, quod patrioque iracundia his ex.",
         id: 1,
         price: 200,
-        name: "Item 1"
+        name: "Laptop Bag"
     },
     {
-        image: "https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/02/25/goods-img/1498125691181740179.jpg",
+        image: "http://demo.ajax-cart.com/photos/product/4/176/4.jpg",
         description: "Lorem ipsum dolor sit amet, et pri iudico propriae accommodare. Mel quod saepe iisque ad, eu partiendo laboramus vituperatoribus sea, nihil virtute ea sea. Sed at denique signiferumque, te nibh dolores voluptatum cum. Nec ex solet reformidans. Pri ne debet accumsan, has ne tale tantas sapientem. Mei et munere nostro pertinax.\n" +
         "\n" +
         "Eligendi conceptam id pro, eum mutat mentitum singulis et. Te usu admodum signiferumque, case omnesque ullamcorper nam cu. Vero delicata an ius, per nostrud nominavi an. At sit stet graeco percipit, at sea intellegat posidonium, quod patrioque iracundia his ex.",
         id: 2,
         price: 100,
-        name: "item 2"
+        name: "Laptop Bag"
     },
     {
         image: "https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/02/25/goods-img/1498125691181740179.jpg",
@@ -26,11 +26,24 @@ const dummyProducts =  [
         "Eligendi conceptam id pro, eum mutat mentitum singulis et. Te usu admodum signiferumque, case omnesque ullamcorper nam cu. Vero delicata an ius, per nostrud nominavi an. At sit stet graeco percipit, at sea intellegat posidonium, quod patrioque iracundia his ex.",
         id: 3,
         price: 250,
-        name: "item 3"
+        name: "Laptop Bag"
     }
 ];
 
-const cart = [
+const dummyCart = [
+
+    {
+        image: "https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/02/25/goods-img/1498125691181740179.jpg",
+        id: 3,
+        price: 250,
+        name: "Laptop Bag"
+    },
+    {
+        image: "http://demo.ajax-cart.com/photos/product/4/176/4.jpg",
+        id: 2,
+        price: 100,
+        name: "Laptop Bag"
+    }
 
 ];
 
@@ -54,22 +67,24 @@ export default {
         });
     },
     addToCart(product) {
-        return new Promise((resolve) => {
-            setTimeout(()=>{
-                resolve(cart);
-            }, 3);
-        });
-        // Check if product is in cart ?
 
-        // If yes, increase the qty by 1
 
-        // Else push product in cart & set qty to 1
 
     },
     getCart() {
+        const cart = dummyCart.find((cart) => {
+            return cart;
+
+        });
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(cart);
+
+            }, 100)
+        });
 
 
-    },
+    } ,
     checkOut(orderFormData) {
         // Make a call to checkout the cart
     }

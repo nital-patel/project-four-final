@@ -36,9 +36,6 @@ class Order extends Component {
                     <button className="btn">Continue to shipping method</button>
 
                 </form>
-                <div className="cart-list">
-                    <img className="img1" src="http://www.digithaigroup.com/wp-engine/wp-content/uploads/2015/09/products.png"></img>
-                </div>
 
 
 

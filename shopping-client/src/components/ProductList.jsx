@@ -25,8 +25,8 @@ class ProductList extends Component {
                     productList.map((product) =>
                         (
                             <div key={product.id}>
-                                <Link to={`/product/${product.id}`}><img className="img" src={product.image}></img></Link>
-                                <a href="#" className="btn-add">Add to Cart</a>
+                                <Link to={`/product/${product.id}`}><img className="img1" src={product.image}></img></Link>
+                                <Link to="/add to cart">Add to cart</Link>
                             </div>
                         )
                     )
@@ -34,6 +34,6 @@ class ProductList extends Component {
                 }
             </div>
         );
-    }
+    }s
 }
 export default ProductList;
