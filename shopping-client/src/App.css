@@ -111,17 +111,12 @@ footer {
   justify-content: center;
   border-top: 1px solid black;
 }
-.Product-list {
-  border: 1px solid #bbbbbb;
-  height: 400px;
-  width: 450px;
-  overflow: hidden;
-  position: relative;
-  margin-left: 30px;
-  border-radius: 15px;
+.img {
+  cursor: pointer;
+  margin-left: 10px;
 }
+
 .btn-add {
-  width: 100%;
   text-align: center;
   cursor: pointer;
   font-size: 18px;
@@ -133,7 +128,6 @@ footer {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   box-shadow: 0 2px 0 #468f3b;
   background-color: #36b725;
-  float: right;
 }
 .Order-list {
   border: 1px solid #bbbbbb;
@@ -142,7 +136,7 @@ footer {
   margin-top: 10px;
   overflow: hidden;
   position: relative;
-  margin-left: 30px;
+  margin-left: 10px;
   border-radius: 15px;
   background-image: url("https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/02/25/goods-img/1498125691181740179.jpg");
 
@@ -171,7 +165,8 @@ footer {
   border: 1px solid black;
   width: 700px;
   height: 700px;
-  margin: auto;
+  margin-left: 10px;
+
 
 }
 .email {
@@ -236,4 +231,26 @@ h2 {
   height: 50px;
   font-size: 20px;
   border: none;
+}
+.product-list {
+  border: 1px solid #bbbbbb;
+  width: 700px;
+  height: 500px;
+  float: right;
+}
+.img1 {
+  margin-left: 10px;
+  width: 250px;
+  height: 150px;
+
+}
+.cart-list {
+  border: 1px solid #dddddd;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-left: 700px;
+  margin-bottom: 1000px;
+  text-align: start;
 }

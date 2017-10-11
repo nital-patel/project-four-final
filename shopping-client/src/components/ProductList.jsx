@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import productApi from '../api/product';
 class ProductList extends Component {
     constructor() {
@@ -24,7 +25,7 @@ class ProductList extends Component {
                     productList.map((product) =>
                         (
                             <div key={product.id}>
-                                <img src={product.image}></img>
+                                <Link to={`/product/${product.id}`}><img className="img" src={product.image}></img></Link>
                                 <a href="#" className="btn-add">Add to Cart</a>
                             </div>
                         )

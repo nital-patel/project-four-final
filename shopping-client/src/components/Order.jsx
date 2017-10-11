@@ -34,8 +34,18 @@ class Order extends Component {
                         <input type="text"  className="num" placeholder="Phone" name="phone" value={this.state.phone} />
                     </div>
                     <button className="btn">Continue to shipping method</button>
+
                 </form>
+                <div className="cart-list">
+                    <img className="img1" src="http://www.digithaigroup.com/wp-engine/wp-content/uploads/2015/09/products.png"></img>
+                </div>
+
+
+
+
             </div>
+
+
 
         );
     }

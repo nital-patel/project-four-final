@@ -13,6 +13,7 @@ import Product from './components/Product';
 import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import Order from './components/Order';
+import  ProductData from './components/ProductData';
 
 class App extends Component {
     render() {
@@ -26,6 +27,7 @@ class App extends Component {
                         <Route exact path='/product' component={ProductList} />
                         <Route exacr path='/cart' component={Cart} />
                         <Route exact path='/checkout' component={Order} />
+                        <Route exact path='/product/:id' component={ProductData} />
                     </div>
                     <Footer />
                 </div>
