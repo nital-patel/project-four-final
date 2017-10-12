@@ -181,7 +181,8 @@ footer {
   padding-top: 10px;
 }
 .btn-cart {
-  float: right;
+  margin-top: 80px;
+
 }
 .cart {
   font-size: 30px;
@@ -290,4 +291,5 @@ h2 {
   margin-top: 70px;
 }
 .cart-price {
+  margin-top: 80px;
 }

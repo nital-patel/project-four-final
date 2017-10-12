@@ -31,12 +31,12 @@ class ProductCart extends Component {
                     <img className="img-cart" src={productCart.image}></img>
                     <p className="cart-price"> {productCart.price}</p>
                     <p className="cart-name"> {productCart.name}</p>
-
                 </div>
                 <div className="btn-cart">
                     <button>Add</button>
                     <button>Delete</button>
                 </div>
+                <Link className="btn-add" to="/add to cart">Checkout</Link>
             </div>
 
         );
